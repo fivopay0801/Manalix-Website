@@ -30,13 +30,13 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#0A0A0A] text-white pt-32 pb-24 md:pt-40 md:pb-32">
+    <footer className="bg-[#0A0A0A] text-white pt-12 pb-8 md:pt-16 md:pb-12">
       <Container>
-        <div className="flex flex-col lg:flex-row justify-between gap-12 mb-24 md:mb-28">
+        <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-12 mb-10 md:mb-12">
           {/* Left Column: Newsletter & Logo */}
-          <div className="space-y-12 md:space-y-14">
-            <div className="space-y-6">
-              <h3 className="text-[20px] font-medium leading-[140%] tracking-[-0.02em]">
+          <div className="space-y-6 md:space-y-7">
+            <div className="space-y-4">
+              <h3 className="text-[18px] md:text-[20px] font-medium leading-[140%] tracking-[-0.02em]">
                 {t.footer.newsletterTitle}
               </h3>
               <Newsletter
@@ -47,12 +47,12 @@ const Footer = () => {
               />
             </div>
 
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
               <Link to="/" className="inline-block group">
                 <img
                   src={logo}
                   alt="Manalix Technology Pvt Ltd"
-                  className="h-16 md:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                  className="h-10 md:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                 />
               </Link>
               <div className="flex items-center gap-2">
@@ -62,13 +62,13 @@ const Footer = () => {
           </div>
 
           {/* Right Column: Links */}
-          <div className="flex flex-col sm:flex-row gap-12 lg:gap-20">
+          <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 lg:gap-20">
             <div>
-              <h4 className="font-semibold text-white mb-6">{t.footer.navigation}</h4>
-              <ul className="space-y-4">
+              <h4 className="font-semibold text-white mb-3 md:mb-4">{t.footer.navigation}</h4>
+              <ul className="space-y-2.5">
                 {navLinks.map((link) => (
                   <li key={link.href}>
-                    <Link to={link.href} className="text-white/70 hover:text-white transition-colors text-[16px]">
+                    <Link to={link.href} className="text-white/70 hover:text-white transition-colors text-[15px]">
                       {link.title}
                     </Link>
                   </li>
@@ -77,11 +77,11 @@ const Footer = () => {
             </div>
 
             <div>
-              <h4 className="font-semibold text-white mb-6">{t.footer.legal}</h4>
-              <ul className="space-y-4">
+              <h4 className="font-semibold text-white mb-3 md:mb-4">{t.footer.legal}</h4>
+              <ul className="space-y-2.5">
                 {legalLinks.map((link) => (
                   <li key={link.href}>
-                    <Link to={link.href} className="text-white/70 hover:text-white transition-colors text-[16px]">
+                    <Link to={link.href} className="text-white/70 hover:text-white transition-colors text-[15px]">
                       {link.title}
                     </Link>
                   </li>
@@ -92,7 +92,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-12 md:pt-16 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="pt-6 md:pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6">
           <p className="text-muted-foreground text-sm text-center md:text-left">
             © {new Date().getFullYear()} {t.footer.allRightsReserved}
           </p>
@@ -122,7 +122,7 @@ const Footer = () => {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-all text-white/70 hover:text-white"
+                className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-all text-white/70 hover:text-white"
                 aria-label={social.label || "Social Link"}
               >
                 <social.icon className="w-4 h-4" />

@@ -42,9 +42,9 @@ const Navbar = () => {
 
   return (
     <header className="w-full md:top-6 top-4 mx-auto absolute z-40 px-4">
-      <Container className="flex justify-between items-center bg-gradient-to-r from-white via-slate-100/95 to-slate-200/90 backdrop-blur-xl border border-white/80 rounded-full py-4 md:py-5 px-6 md:px-8 shadow-[0_8px_30px_rgb(0,0,0,0.25)] min-h-[76px] md:min-h-[88px]">
+      <Container className="flex justify-between items-center bg-gradient-to-r from-white via-slate-100/95 to-slate-200/90 backdrop-blur-xl border border-white/80 rounded-full py-2.5 md:py-3 px-6 md:px-8 shadow-[0_8px_30px_rgb(0,0,0,0.25)] min-h-[76px] md:min-h-[88px]">
         <Link to="/" className="flex items-center space-x-2 w-fit shrink-0">
-          <img src={logo} alt="Manalix Technology Pvt Ltd" className="h-11 md:h-13 w-auto object-contain transition-transform hover:scale-105" />
+          <img src={logo} alt="Manalix Technology Pvt Ltd" className="h-12 md:h-16 lg:h-[68px] w-auto object-contain transition-transform hover:scale-105" />
         </Link>
 
         {/* <!-- Mobile --> */}
@@ -72,8 +72,8 @@ const Navbar = () => {
               <div className="h-full flex flex-col">
                 <SheetHeader className="flex flex-row justify-between border-b border-foreground">
                   <SheetTitle className="flex items-center">
-                    <Link to="/" className="flex items-center bg-white/90 px-3 py-1 rounded-xl" onClick={() => setIsOpen(false)}>
-                      <img src={logo} alt="Manalix Technology Pvt Ltd" className="h-8 md:h-9 w-auto object-contain" />
+                    <Link to="/" className="flex items-center bg-white/90 px-3 py-1.5 rounded-xl" onClick={() => setIsOpen(false)}>
+                      <img src={logo} alt="Manalix Technology Pvt Ltd" className="h-9 md:h-10 w-auto object-contain" />
                     </Link>
                   </SheetTitle>
                   <div className="flex items-center gap-2">
