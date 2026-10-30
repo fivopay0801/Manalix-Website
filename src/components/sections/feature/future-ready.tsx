@@ -1,0 +1,77 @@
+import { AnimateOnView } from '@/components/ui/motion/animate-on-view'
+import { StaggerContainer } from '@/components/ui/motion/stagger'
+import { ArrowRight, Bookmark, Building2, LayoutGrid, Zap } from 'lucide-react'
+import Container from '../../container'
+import { useLanguage } from '@/context/language-context'
+
+const FutureReadyFinance = () => {
+    const { t } = useLanguage();
+
+    const features = [
+        {
+            icon: <Building2 className="w-5 h-5 text-orange-400" />,
+            title: t.product.futureReady.f1Title,
+            description: t.product.futureReady.f1Desc
+        },
+        {
+            icon: <Zap className="w-5 h-5 text-orange-400" />,
+            title: t.product.futureReady.f2Title,
+            description: t.product.futureReady.f2Desc
+        },
+        {
+            icon: <Bookmark className="w-5 h-5 text-orange-400" />,
+            title: t.product.futureReady.f3Title,
+            description: t.product.futureReady.f3Desc
+        },
+        {
+            icon: <LayoutGrid className="w-5 h-5 text-orange-400" />,
+            title: t.product.futureReady.f4Title,
+            description: t.product.futureReady.f4Desc
+        }
+    ];
+
+    return (
+        <section className="md:py-[60px] py-12">
+            <Container className="md:space-y-20 space-y-8">
+                <StaggerContainer className="text-center md:max-w-2xl max-w-xs mx-auto">
+                    <AnimateOnView blur>
+                        <h2 className="h2 md:mb-5 mb-3 flex items-center justify-center flex-wrap gap-2 md:gap-3.5">
+                            <span className="text-gradient font-bold">{t.product.futureReady.titleFinance}</span>
+                            <span className="inline-flex items-center justify-center w-8 h-8 md:w-10 md:h-10 rounded-full bg-gradient-to-r from-primary/20 to-purple-500/20 border border-primary/30 text-primary shadow-[0_0_15px_rgba(59,130,246,0.25)] shrink-0">
+                                <ArrowRight className="w-4 h-4 md:w-5 md:h-5 text-primary" />
+                            </span>
+                            <span>{t.product.futureReady.titleFutureReady}</span>
+                        </h2>
+                    </AnimateOnView>
+                    <AnimateOnView blur delay={0.2}>
+                        <p className="text-muted-foreground">
+                            {t.product.futureReady.subtitleStart} <span className="text-gradient font-semibold">Manalix Technology</span>{t.product.futureReady.subtitleEnd}
+                        </p>
+                    </AnimateOnView>
+                </StaggerContainer>
+
+                <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 pt-8">
+                    {features.map((feature, index) => (
+                        <AnimateOnView key={index} delay={0.4 + index * 0.1} blur>
+                            <div className="space-y-6">
+                                <div className="w-12 h-12 rounded-full bg-orange-950/20 border border-orange-500/10 flex items-center justify-center">
+                                    {feature.icon}
+                                </div>
+                                <div className="space-y-3">
+                                    <h3 className="h4">
+                                        {feature.title}
+                                    </h3>
+                                    <p className="text-muted-foreground">
+                                        {feature.description}
+                                    </p>
+                                </div>
+                            </div>
+                        </AnimateOnView>
+                    ))}
+                </StaggerContainer>
+            </Container>
+        </section>
+    )
+}
+
+export default FutureReadyFinance
