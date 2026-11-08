@@ -7,7 +7,7 @@ const AuthNavbar = () => {
         <header className="w-full md:top-10 top-6 mx-auto absolute z-40">
             <Container className="flex justify-between items-center">
                 <Link to="/" className="flex items-center space-x-2 w-fit text-foreground">
-                    <img src={logo} alt="Manalix Technology Pvt Ltd" className="h-12 md:h-14 w-auto object-contain transition-transform hover:scale-105" />
+                    <img src={logo} alt="Manalix Technologies Private Limited" className="h-12 md:h-14 w-auto object-contain transition-transform hover:scale-105" />
                 </Link>
 
                 <nav className="hidden lg:flex items-center gap-8 text-white/70">

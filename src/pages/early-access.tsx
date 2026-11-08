@@ -9,7 +9,7 @@ const EarlyAccess = () => {
             <header className="w-full md:top-10 top-6 mx-auto absolute z-40">
                 <Container className="flex justify-center items-center">
                     <Link to="/" className="flex items-center">
-                        <img src={logo} alt="Manalix Technology Pvt Ltd" className="h-10 w-auto object-contain" />
+                        <img src={logo} alt="Manalix Technologies Private Limited" className="h-10 w-auto object-contain" />
                     </Link>
                 </Container>
             </header>

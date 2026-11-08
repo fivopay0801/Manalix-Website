@@ -21,7 +21,7 @@ export const hi: TranslationStructure = {
     termsConditions: "नियम एवं शर्तें",
     refundPolicy: "रिफंड और रद्दीकरण",
     serviceFulfillment: "सेवा पूर्ति",
-    allRightsReserved: "Manalix Technology Pvt Ltd. सर्वाधिकार सुरक्षित।",
+    allRightsReserved: "Manalix Technologies Private Limited. सर्वाधिकार सुरक्षित।",
   },
   cta: {
     title: "आज ही 10 मिनट से भी कम समय में आवेदन करें!",
@@ -30,11 +30,11 @@ export const hi: TranslationStructure = {
   },
   faq: {
     title: "अक्सर पूछे जाने वाले प्रश्न",
-    q1: "Manalix Technology Pvt Ltd क्या है?",
-    a1: "Manalix Technology Pvt Ltd एक प्रमुख फिनटेक इंफ्रास्ट्रक्चर और सास (SaaS) कंपनी है जो Fivopay जैसे प्रमुख उत्पादों के माध्यम से सहकारी समितियों, कर्मचारी ऋण समितियों, नैतिक बैंकिंग और पूर्ण कोर बैंकिंग संचालन को सशक्त बनाती है। बैंकिंग को आसान बनाना।",
-    q2: "क्या Manalix Technology Pvt Ltd ग्राहकों के फंड को रखता या प्रबंधित करता है?",
-    a2: "नहीं। Manalix Technology Pvt Ltd केवल इंफ्रास्ट्रक्चर सॉफ्टवेयर है — हम विशेष तकनीकी फ्रेमवर्क और क्लाउड-नेटिव सॉफ्टवेयर प्रदान करते हैं। फंड का लेन-देन लाइसेंस प्राप्त एग्रीगेटर्स और साझेदार बैंकों द्वारा संभाला जाता है।",
-    q3: "Manalix Technology Pvt Ltd कौन-से उत्पाद पेश करता है?",
+    q1: "Manalix Technologies Private Limited क्या है?",
+    a1: "Manalix Technologies Private Limited एक प्रमुख कोर बैंकिंग सॉफ्टवेयर और फिनटेक इंफ्रास्ट्रक्चर कंपनी है जो Fivopay जैसे प्रमुख उत्पादों के माध्यम से सहकारी समितियों, कर्मचारी ऋण समितियों, पतसंस्थाओं, नैतिक बैंकिंग और पूर्ण कोर बैंकिंग संचालन को सशक्त बनाती है। बैंकिंग को आसान बनाना।",
+    q2: "क्या Manalix Technologies Private Limited ग्राहकों के फंड को रखता या प्रबंधित करता है?",
+    a2: "नहीं। Manalix Technologies Private Limited केवल क्लाउड-नेटिव कोर बैंकिंग और सॉफ्टवेयर तकनीक प्रदान करता है। फंड का लेन-देन लाइसेंस प्राप्त एग्रीगेटर्स और साझेदार बैंकों द्वारा संभाला जाता है।",
+    q3: "Manalix Technologies Private Limited कौन-से उत्पाद पेश करता है?",
     a3: "हमारा व्यापक उत्पाद पोर्टफोलियो Fivopay (डिजिटल भुगतान और बैंकिंग इंफ्रास्ट्रक्चर), FivoLink, Fivo Union, Mudrox Escrow, सहकारी प्रबंधन, नैतिक बैंकिंग, कोर बैंकिंग प्लेटफॉर्म और कर्मचारी ऋण सहकारी समाधान शामिल करता है।",
     q4: "प्लेटफ़ॉर्म कितना सुरक्षित है?",
     a4: "हम AES-256 एन्क्रिप्शन, मल्टी-फैक्टर ऑथेंटिकेशन, एआई-संचालित रियल-टाइम धोखाधड़ी रोकथाम और टियर-4 डेटा केंद्रों का उपयोग करते हैं, जो PCI DSS लेवल 1, ISO 27001, SOC 2 टाइप II और GDPR अनुरूप हैं।",
@@ -414,7 +414,7 @@ export const hi: TranslationStructure = {
     team: {
       title: "हमारी",
       titleGradient: "टीम",
-      subtitle: "Manalix Technology Pvt Ltd की सफलता के पीछे के समर्पित लोग",
+      subtitle: "Manalix Technologies Private Limited की सफलता के पीछे के समर्पित लोग",
       techTitle: "टेक्नोलॉजी टीम",
       techDept: "इंजीनियरिंग",
       techDesc: "बैंकिंग के भविष्य का निर्माण करने वाले 50+ कुशल इंजीनियर्स",
@@ -434,7 +434,7 @@ export const hi: TranslationStructure = {
     },
   },
   contact: {
-    title: "Manalix Technology Pvt Ltd",
+    title: "Manalix Technologies Private Limited",
     subtitle: "इनमें से किसी भी माध्यम से हमसे संपर्क करें",
     emailUs: "हमें ईमेल करें",
     emailSub: "हम 24 घंटे के भीतर जवाब देंगे",

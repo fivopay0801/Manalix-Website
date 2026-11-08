@@ -9,7 +9,7 @@ const TermsAndConditionPage = () => {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": `Terms & Conditions | ${appConfig.name}`,
-        "description": `Terms and Conditions for ${appConfig.name} (Manalix Technology Pvt Ltd).`,
+        "description": `Terms and Conditions for ${appConfig.name} (Manalix Technologies Private Limited).`,
         "url": `${appConfig.url}/terms-and-conditions`
     };
 
@@ -37,7 +37,7 @@ const TermsAndConditionPage = () => {
                                     Acceptance of Terms
                                 </h3>
                                 <p className="text-white/80">
-                                    By accessing and using the website of <strong className="text-white">Manalix Technology Pvt Ltd</strong> (&quot;the Company&quot;) and its products including <strong className="text-white">Fivopay</strong>, you agree to be bound by these Terms and Conditions and all applicable laws and regulations.
+                                    By accessing and using the website of <strong className="text-white">Manalix Technologies Private Limited</strong> (&quot;the Company&quot;) and its products including <strong className="text-white">Fivopay</strong>, you agree to be bound by these Terms and Conditions and all applicable laws and regulations.
                                 </p>
                             </div>
 
@@ -48,7 +48,7 @@ const TermsAndConditionPage = () => {
                                     Use License
                                 </h3>
                                 <p className="text-white/80">
-                                    Permission is granted to temporarily download one copy of the materials on the Company&apos;s website for personal, non-commercial transitory viewing only.
+                                    Permission is granted to temporarily access and download one copy of the materials (information or software) on <strong className="text-white">Manalix Technologies Private Limited</strong>'s website for personal, non-commercial transitory viewing only.
                                 </p>
                             </div>
 
@@ -81,7 +81,7 @@ const TermsAndConditionPage = () => {
                                     Intellectual Property
                                 </h3>
                                 <p className="text-white/80">
-                                    All content, logos, and software on this website are the property of <strong className="text-white">Manalix Technology Pvt Ltd</strong> and are protected by applicable copyright and trademark law.
+                                    All content, logos, and software on this website are the property of <strong className="text-white">Manalix Technologies Private Limited</strong> and are protected by applicable copyright and trademark law.
                                 </p>
                             </div>
 

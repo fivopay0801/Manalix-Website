@@ -19,7 +19,7 @@ export const en = {
     termsConditions: "Terms & Conditions",
     refundPolicy: "Refund & Cancellation",
     serviceFulfillment: "Service Fulfillment",
-    allRightsReserved: "Manalix Technology Pvt Ltd. All rights reserved.",
+    allRightsReserved: "Manalix Technologies Private Limited. All rights reserved.",
   },
   cta: {
     title: "Apply in under 10 minutes today!",
@@ -28,11 +28,11 @@ export const en = {
   },
   faq: {
     title: "Frequently Asked Questions",
-    q1: "What is Manalix Technology Pvt Ltd?",
-    a1: "Manalix Technology Pvt Ltd is a premier fintech infrastructure and SaaS company powering cooperative societies, employee credit societies, ethical banking, and modern core banking operations through flagship products like Fivopay. Making Banking Easier.",
-    q2: "Does Manalix Technology Pvt Ltd hold or manage customer funds?",
-    a2: "No. Manalix Technology Pvt Ltd is infrastructure only — we provide the specialised technical frameworks and cloud-native software. Fund movement is handled by licensed aggregators and partner institutions.",
-    q3: "Which products does Manalix Technology Pvt Ltd offer?",
+    q1: "What is Manalix Technologies Private Limited?",
+    a1: "Manalix Technologies Private Limited is a premier core banking software and fintech infrastructure company powering cooperative societies, patsansthas, employee credit societies, ethical banking, and modern core banking operations through flagship products like Fivopay. Making Banking Easier.",
+    q2: "Does Manalix Technologies Private Limited hold or manage customer funds?",
+    a2: "No. Manalix Technologies Private Limited is an infrastructure and SaaS technology provider — we provide cloud-native core banking systems, LOS/LMS, and digital apps. Fund movement is handled by licensed aggregators and partner institutions.",
+    q3: "Which products does Manalix Technologies Private Limited offer?",
     a3: "Our comprehensive product portfolio includes Fivopay (digital payments & banking infrastructure), FivoLink, Fivo Union, Mudrox Escrow, Cooperative Management, Ethical Banking, Core Banking Platform, and Employee Credit Cooperatives.",
     q4: "How secure is the platform?",
     a4: "We run AES-256 encryption, multi-factor authentication, AI-powered real-time fraud detection and Tier-4 data centres, with PCI DSS Level 1, ISO 27001, SOC 2 Type II and GDPR compliance.",
@@ -412,7 +412,7 @@ export const en = {
     team: {
       title: "Our",
       titleGradient: "Team",
-      subtitle: "The people behind Manalix Technology Pvt Ltd's success",
+      subtitle: "The people behind Manalix Technologies Private Limited's success",
       techTitle: "Technology Team",
       techDept: "Engineering",
       techDesc: "50+ engineers building the future of banking",
@@ -432,7 +432,7 @@ export const en = {
     },
   },
   contact: {
-    title: "Manalix Technology Pvt Ltd",
+    title: "Manalix Technologies Private Limited",
     subtitle: "Reach out through any of these channels",
     emailUs: "Email Us",
     emailSub: "We'll respond within 24 hours",

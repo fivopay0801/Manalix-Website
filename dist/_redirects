@@ -1,1 +1,14 @@
-/*    /index.html   200
+# Canonical 301 Redirects
+http://manalix.com/*    https://www.manalix.com/:splat  301!
+https://manalix.com/*   https://www.manalix.com/:splat  301!
+http://www.manalix.com/* https://www.manalix.com/:splat 301!
+
+# Feature alias redirects
+/feature    /product    301!
+/products   /product    301!
+
+# API Proxy
+/api/*  https://backend.fivopay.com/api/:splat  200!
+
+# SPA Fallback
+/*      /index.html     200

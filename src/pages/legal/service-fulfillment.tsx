@@ -10,7 +10,7 @@ const ServiceFulfillmentPage = () => {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": `Service Fulfillment | ${appConfig.name}`,
-        "description": `Service Fulfillment and Delivery Policy for ${appConfig.name} by Manalix Technology Pvt Ltd.`,
+        "description": `Service Fulfillment and Delivery Policy for ${appConfig.name} by Manalix Technologies Private Limited.`,
         "url": `${appConfig.url}/service-fulfillment`
     };
 
@@ -40,7 +40,7 @@ const ServiceFulfillmentPage = () => {
                                 <div className="flex items-start gap-3">
                                     <Server className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                                     <p className="text-white/80">
-                                        <strong className="text-white">Manalix Technology Pvt Ltd</strong> provides digital financial technology services and software-as-a-service (SaaS) platforms. As such, there are no physical goods to be shipped.
+                                        <strong className="text-white">Manalix Technologies Private Limited</strong> provides digital financial technology services and software-as-a-service (SaaS) platforms. As such, there are no physical goods to be shipped.
                                     </p>
                                 </div>
                             </div>

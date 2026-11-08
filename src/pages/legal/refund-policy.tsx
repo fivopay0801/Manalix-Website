@@ -10,7 +10,7 @@ const RefundPolicyPage = () => {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": `Refund and Cancellation | ${appConfig.name}`,
-        "description": `Refund and Cancellation Policy for ${appConfig.name} by Manalix Technology Pvt Ltd.`,
+        "description": `Refund and Cancellation Policy for ${appConfig.name} by Manalix Technologies Private Limited.`,
         "url": `${appConfig.url}/refund-policy`
     };
 
@@ -52,7 +52,7 @@ const RefundPolicyPage = () => {
                                     Refund Eligibility
                                 </h3>
                                 <p className="text-white/80">
-                                    Refunds are considered on a case-by-case basis. Generally, since <strong className="text-white">Manalix Technology Pvt Ltd</strong> provides digital software-as-a-service (SaaS) products, refunds are only issued if:
+                                    Refunds are considered on a case-by-case basis. Generally, since <strong className="text-white">Manalix Technologies Private Limited</strong> provides digital software-as-a-service (SaaS) products, refunds are only issued if:
                                 </p>
                                 <ul className="list-disc list-inside space-y-2 pl-2 text-white/70">
                                     <li>A double payment was made accidentally.</li>

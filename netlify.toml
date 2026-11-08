@@ -2,10 +2,56 @@
   command = "npm run build"
   publish = "dist"
 
+# Canonical 301 Redirect: non-www to www and force HTTPS
+[[redirects]]
+  from = "http://manalix.com/*"
+  to = "https://www.manalix.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://manalix.com/*"
+  to = "https://www.manalix.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.manalix.com/*"
+  to = "https://www.manalix.com/:splat"
+  status = 301
+  force = true
+
+# SEO Alias redirects
+[[redirects]]
+  from = "/feature"
+  to = "/product"
+  status = 301
+
+[[redirects]]
+  from = "/products"
+  to = "/product"
+  status = 301
+
+# Backend API
+[[redirects]]
+  from = "/api/*"
+  to = "https://backend.fivopay.com/api/:splat"
+  status = 200
+  force = true
+
+# SPA Fallback
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
 
 [[headers]]
   for = "/*.js"
