@@ -50,14 +50,6 @@ export interface ComparisonRow {
   manalix: string;
 }
 
-export interface ClientProof {
-  quote: string;
-  author: string;
-  role: string;
-  organization: string;
-  location: string;
-}
-
 export interface SolutionPageProps {
   // SEO Metadata
   slug: string;
@@ -90,9 +82,6 @@ export interface SolutionPageProps {
   securityHeading?: string;
   securityPoints?: string[];
 
-  // Testimonials / Proof
-  clientProofs?: ClientProof[];
-
   // FAQs
   faqs: FAQItem[];
 
@@ -120,7 +109,6 @@ export const SolutionLandingTemplate: React.FC<SolutionPageProps> = ({
   features,
   securityHeading = "Bank-Grade Infrastructure & Regulatory Security",
   securityPoints = [],
-  clientProofs = [],
   faqs,
   isMarathi = false,
 }) => {
@@ -360,38 +348,6 @@ export const SolutionLandingTemplate: React.FC<SolutionPageProps> = ({
                   <div key={pIdx} className="flex items-start gap-3 p-3.5 rounded-xl bg-white/[0.03] border border-white/5">
                     <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                     <span className="text-sm text-white/80 leading-snug">{pt}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </Container>
-        </section>
-      )}
-
-      {/* Client Proof & Testimonials */}
-      {clientProofs.length > 0 && (
-        <section className="py-16 md:py-24 bg-card/40 border-y border-white/5">
-          <Container>
-            <div className="max-w-4xl mx-auto space-y-8">
-              <div className="text-center space-y-2">
-                <div className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider text-primary font-semibold">
-                  <Users className="w-4 h-4" />
-                  <span>{isMarathi ? "ग्राहकांचे अनुभव" : "Customer Success Stories"}</span>
-                </div>
-                <h2 className="text-2xl sm:text-3xl font-bold text-white">
-                  {isMarathi ? "महाराष्ट्रातील आघाडीच्या संस्थांचा विश्वास" : "Trusted by Leading Cooperative Societies"}
-                </h2>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {clientProofs.map((proof, cIdx) => (
-                  <div key={cIdx} className="p-6 sm:p-8 rounded-2xl bg-card border border-white/10 space-y-4 shadow-lg">
-                    <p className="text-white/80 italic text-sm leading-relaxed">&ldquo;{proof.quote}&rdquo;</p>
-                    <div className="pt-2 border-t border-white/5">
-                      <div className="font-semibold text-white text-sm">{proof.author}</div>
-                      <div className="text-xs text-primary font-medium">{proof.role} • {proof.organization}</div>
-                      <div className="text-xs text-white/50">{proof.location}</div>
-                    </div>
                   </div>
                 ))}
               </div>

@@ -151,24 +151,6 @@ const ShariahCompliantBankingSoftwarePage: React.FC = () => {
         "Role-based access control with Maker-Checker dual authorization for all financial vouchers",
         "Hosted in certified Tier-4 Indian data centers ensuring data localization compliance",
       ]}
-      clientProofs={[
-        {
-          quote:
-            "Finding a core banking software that genuinely understands the difference between a Murabaha contract and an interest-bearing loan in India was nearly impossible until we found Manalix. Our Shariah Advisory Board gave the platform unconditional certification.",
-          author: "Maulana Dr. Tariq Mansoor",
-          role: "Shariah Board Member & Trustee",
-          organization: "Bait-un-Nasr Cooperative Credit Society",
-          location: "Mumbai, Maharashtra",
-        },
-        {
-          quote:
-            "Managing profit distribution among 3,500 Mudarabah depositors used to take our accounting team 10 days of manual spreadsheet work every month. Manalix calculates weightages and distributes audited profits to all accounts in 30 seconds.",
-          author: "Syed Abdul Rahman",
-          role: "Chief Executive Officer",
-          organization: "Al-Ameen Mutual Benefit Trust",
-          location: "Bengaluru, Karnataka",
-        },
-      ]}
       faqs={[
         {
           question: "How does Manalix software ensure genuine Shariah compliance?",

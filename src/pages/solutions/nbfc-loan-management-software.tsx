@@ -151,24 +151,6 @@ const NbfcLoanManagementSoftwarePage: React.FC = () => {
         "Automated CKYC, PAN, and Aadhaar masking ensuring personal data protection (DPDP Act)",
         "Comprehensive disaster recovery with 99.99% uptime SLA and real-time database replication",
       ]}
-      clientProofs={[
-        {
-          quote:
-            "Manalix LMS transformed our retail MSME lending operations. We reduced our loan origination TAT from 3 days to under 15 minutes, while NACH bounce rates plummeted by 42% thanks to intelligent pre-debit notifications and UPI Autopay.",
-          author: "Anand Deshmukh",
-          role: "Chief Operating Officer",
-          organization: "Pragati Finlease NBFC",
-          location: "Pune, Maharashtra",
-        },
-        {
-          quote:
-            "Handling regulatory reporting for over 45,000 active loan accounts used to be a nightmare. With Manalix, our RBI returns and monthly bureau files for CIBIL and Experian are generated automatically with zero errors.",
-          author: "Rajiv Khurana",
-          role: "Head of Credit & Risk",
-          organization: "Apex Microfin Capital",
-          location: "Mumbai, Maharashtra",
-        },
-      ]}
       faqs={[
         {
           question: "What is NBFC loan management software and what does it include?",

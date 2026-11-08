@@ -152,24 +152,6 @@ const CreditSocietySoftwarePage: React.FC = () => {
         "Automated session timeouts, IP whitelisting, and device binding for cashier logins",
         "Disaster recovery RPO < 15 minutes and RTO < 1 hour with automated failover",
       ]}
-      clientProofs={[
-        {
-          quote:
-            "Switching from our 15-year-old desktop software to Manalix Cloud CBS was the best decision our board made. Our 4,200 members now check their balance on their mobile app, pigmy agent fraud dropped to zero, and we secured a Class 'A' audit rating with zero audit remarks.",
-          author: "Sunil Shinde",
-          role: "General Manager",
-          organization: "CME Employees Cooperative Credit Society",
-          location: "Pune, Maharashtra",
-        },
-        {
-          quote:
-            "Data migration of over 18,000 accounts was executed over the weekend without disrupting a single hour of counter operations. The daily balance sheet balancing that used to take until 9 PM is now completed automatically by 5:15 PM.",
-          author: "Prakash Kadam",
-          role: "Chief Executive Officer",
-          organization: "Janseva Cooperative Credit Society",
-          location: "Nashik, Maharashtra",
-        },
-      ]}
       faqs={[
         {
           question: "What is credit cooperative society software and why is cloud CBS necessary?",
