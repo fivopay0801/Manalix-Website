@@ -38,7 +38,7 @@ const PrivacyPolicyPage = () => {
                                     Introduction
                                 </h3>
                                 <p className="text-white/80">
-                                    <strong className="text-white">Manalix Technologies Private Limited</strong> (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
+                                    <strong className="text-white">Manalix Technologies Private Limited</strong> (formerly known as <strong className="text-white">Saikhlearn &amp; Scholar Nexus Private Limited</strong>) (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
                                 </p>
                             </div>
 

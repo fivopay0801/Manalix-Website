@@ -67,7 +67,7 @@ const Footer = () => {
                 <span>Enterprise Fintech Ecosystem</span>
               </div>
               <p className="text-white/60">
-                A product of <strong className="text-white">Manalix Technologies Private Limited</strong>.
+                A product of <strong className="text-white">Manalix Technologies Private Limited</strong> (formerly Saikhlearn & Scholar Nexus Private Limited).
                 Powers digital payment infrastructure on{" "}
                 <a
                   href="https://www.fivopay.com"
@@ -137,8 +137,10 @@ const Footer = () => {
                 <MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" />
                 <span>
                   <strong>Manalix Technologies Private Limited</strong>
-                  <br />
-                  10 Biz Park, Viman Nagar, Pune, Maharashtra 411014, India
+                  <span className="block text-[11px] text-white/50 mt-0.5">
+                    (Formerly known as Saikhlearn &amp; Scholar Nexus Private Limited)
+                  </span>
+                  <span className="block mt-1">10 Biz Park, Viman Nagar, Pune, Maharashtra 411014, India</span>
                 </span>
               </div>
               <div className="flex items-center gap-2">
@@ -171,7 +173,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-6 md:pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/60 text-xs text-center md:text-left">
-            © {new Date().getFullYear()} {appConfig.legalName}. All rights reserved.
+            © {new Date().getFullYear()} {appConfig.legalName} (formerly Saikhlearn &amp; Scholar Nexus Private Limited). All rights reserved.
           </p>
 
           <div className="flex items-center gap-3">

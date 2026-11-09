@@ -122,7 +122,7 @@ const Contact = () => {
               <div className="p-6 rounded-2xl bg-card/60 border border-white/10 space-y-2">
                 <h4 className="text-sm font-semibold text-white">Corporate Identity & Legal Entity</h4>
                 <p className="text-xs text-muted-foreground leading-relaxed">
-                  <strong>Manalix Technologies Private Limited</strong> is a registered corporate technology entity in Pune, Maharashtra. We adhere to ISO 27001 data security standards, RBI cybersecurity guidelines for cooperative banks, and Sahakar Commissioner compliance benchmarks.
+                  <strong>Manalix Technologies Private Limited</strong> (formerly known as <strong>Saikhlearn &amp; Scholar Nexus Private Limited</strong>) is a registered corporate technology entity in Pune, Maharashtra. We adhere to ISO 27001 data security standards, RBI cybersecurity guidelines for cooperative banks, and Sahakar Commissioner compliance benchmarks.
                 </p>
               </div>
             </div>

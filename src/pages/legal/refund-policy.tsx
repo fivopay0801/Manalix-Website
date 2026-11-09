@@ -52,7 +52,7 @@ const RefundPolicyPage = () => {
                                     Refund Eligibility
                                 </h3>
                                 <p className="text-white/80">
-                                    Refunds are considered on a case-by-case basis. Generally, since <strong className="text-white">Manalix Technologies Private Limited</strong> provides digital software-as-a-service (SaaS) products, refunds are only issued if:
+                                    Refunds are considered on a case-by-case basis. Generally, since <strong className="text-white">Manalix Technologies Private Limited</strong> (formerly Saikhlearn &amp; Scholar Nexus Private Limited) provides digital software-as-a-service (SaaS) products, refunds are only issued if:
                                 </p>
                                 <ul className="list-disc list-inside space-y-2 pl-2 text-white/70">
                                     <li>A double payment was made accidentally.</li>

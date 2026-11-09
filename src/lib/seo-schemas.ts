@@ -19,7 +19,7 @@ export const createOrganizationSchema = () => ({
   "@id": `${appConfig.url}/#organization`,
   name: appConfig.legalName,
   legalName: appConfig.legalName,
-  alternateName: ["Manalix", "Manalix Technologies", "FivoPay"],
+  alternateName: ["Manalix", "Manalix Technologies", "Saikhlearn & Scholar Nexus Private Limited", "FivoPay"],
   url: appConfig.url,
   logo: {
     "@type": "ImageObject",

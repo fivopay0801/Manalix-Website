@@ -37,7 +37,7 @@ const TermsAndConditionPage = () => {
                                     Acceptance of Terms
                                 </h3>
                                 <p className="text-white/80">
-                                    By accessing and using the website of <strong className="text-white">Manalix Technologies Private Limited</strong> (&quot;the Company&quot;) and its products including <strong className="text-white">Fivopay</strong>, you agree to be bound by these Terms and Conditions and all applicable laws and regulations.
+                                    By accessing and using the website of <strong className="text-white">Manalix Technologies Private Limited</strong> (formerly known as <strong className="text-white">Saikhlearn &amp; Scholar Nexus Private Limited</strong>) (&quot;the Company&quot;) and its products including <strong className="text-white">Fivopay</strong>, you agree to be bound by these Terms and Conditions and all applicable laws and regulations.
                                 </p>
                             </div>
 
@@ -81,7 +81,7 @@ const TermsAndConditionPage = () => {
                                     Intellectual Property
                                 </h3>
                                 <p className="text-white/80">
-                                    All content, logos, and software on this website are the property of <strong className="text-white">Manalix Technologies Private Limited</strong> and are protected by applicable copyright and trademark law.
+                                    All content, logos, and software on this website are the property of <strong className="text-white">Manalix Technologies Private Limited</strong> (formerly Saikhlearn &amp; Scholar Nexus Private Limited) and are protected by applicable copyright and trademark law.
                                 </p>
                             </div>
 
