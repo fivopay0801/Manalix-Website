@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
-  const target = env.VITE_SERVER_URL || env.SERVER_URL || "https://backend.fivopay.com";
+  const target = env.VITE_SERVER_URL || env.SERVER_URL || "https://cmedemo.fivopayunion.in";
 
   return {
     server: {

@@ -35,7 +35,7 @@
 # Backend API
 [[redirects]]
   from = "/api/*"
-  to = "https://backend.fivopay.com/api/:splat"
+  to = "https://cmedemo.fivopayunion.in/api/:splat"
   status = 200
   force = true
 

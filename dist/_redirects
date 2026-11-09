@@ -8,7 +8,7 @@ http://www.manalix.com/* https://www.manalix.com/:splat 301!
 /products   /product    301!
 
 # API Proxy
-/api/*  https://backend.fivopay.com/api/:splat  200!
+/api/*  https://cmedemo.fivopayunion.in/api/:splat  200!
 
 # SPA Fallback
 /*      /index.html     200

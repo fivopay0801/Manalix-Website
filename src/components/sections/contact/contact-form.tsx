@@ -58,13 +58,13 @@ const ContactForm = () => {
       const envServerUrl = (
         import.meta.env.VITE_SERVER_URL ||
         import.meta.env.VITE_API_BASE_URL?.replace(/\/api\/?$/, "") ||
-        "https://backend.fivopay.com"
+        "https://cmedemo.fivopayunion.in"
       ).replace(/\/$/, "");
 
       const urlsToTry = Array.from(
         new Set([
           `${envServerUrl}/api/contact/submit`,
-          "https://backend.fivopay.com/api/contact/submit",
+          "https://cmedemo.fivopayunion.in/api/contact/submit",
           "/api/contact/submit",
           "http://localhost:8000/api/contact/submit",
           "http://127.0.0.1:8000/api/contact/submit",
