@@ -19,10 +19,18 @@ const PatsansthaSoftwarePage: React.FC = () => {
   return (
     <SolutionLandingTemplate
       slug="/patsanstha-software"
-      title="Patsanstha Software Maharashtra | Cloud CBS for Nagari & Gramin Patsansthas"
-      metaDescription="Leading patsanstha software in Maharashtra. Built for Nagari & Gramin Patsansthas with Sahakar Ayuktalay 99-parameter audit compliance, pigmy app & loans. Book demo."
-      targetKeyword="patsanstha software Maharashtra"
+      title="Cooperative Software Provider | Pathsantha & Pathpidhi Software Maharashtra"
+      metaDescription="India's leading cooperative software provider for pathsantha & pathpidhi in Maharashtra. Cloud credit cooperative software with 99-mudde audit, pigmy app & loan system."
+      targetKeyword="cooperative software provider"
       secondaryKeywords={[
+        "pathsantha",
+        "pathpidhi",
+        "credit cooperative software",
+        "credit society",
+        "credit",
+        "cooperative",
+        "software",
+        "patsanstha software Maharashtra",
         "patsanstha core banking software",
         "nagari patsanstha software Pune",
         "gramin patsanstha CBS Maharashtra",
@@ -31,10 +39,10 @@ const PatsansthaSoftwarePage: React.FC = () => {
         "patsanstha accounting software",
         "section 101 recovery notice software",
       ]}
-      badgeText="Maharashtra's #1 Cloud Patsanstha Software"
-      h1Title="Cloud Patsanstha Software for"
-      h1Highlight="Maharashtra Credit Societies"
-      heroSubtitle="Specifically engineered for Nagari, Gramin, Mahila, and Karmachari Patsansthas across Maharashtra. 100% compliant with Sahakar Ayuktalay guidelines, automated 99-parameter audit reports (वर्ग 'अ' रेटिंग), Pigmy Android app with Bluetooth printing, and Section 101 recovery notices."
+      badgeText="Leading Cooperative Software Provider in Maharashtra"
+      h1Title="Cooperative Software Provider for"
+      h1Highlight="Pathsantha, Pathpidhi & Credit Societies"
+      heroSubtitle="Specifically engineered for Nagari, Gramin, Mahila, and Karmachari Patsansthas (Pathsantha & Pathpidhi) across Maharashtra. 100% compliant with Sahakar Ayuktalay guidelines, automated 99-parameter audit reports (वर्ग 'अ' रेटिंग), Pigmy Android app with Bluetooth printing, and Section 101 recovery notices."
       stats={[
         { value: "180+", label: "Patsansthas in Maharashtra" },
         { value: "Class 'A'", label: "Audit Rating Compliance" },

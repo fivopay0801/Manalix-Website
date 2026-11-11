@@ -20,10 +20,17 @@ const CreditSocietySoftwarePage: React.FC = () => {
   return (
     <SolutionLandingTemplate
       slug="/credit-society-software"
-      title="Credit Cooperative Society Software | Cloud Core Banking Solution"
-      metaDescription="India's leading cloud credit cooperative society software by Manalix. Automated pigmy deposits, loan management, member mobile passbook & audit. Book a demo."
-      targetKeyword="credit cooperative society software"
+      title="Cooperative Software Provider | Credit Society Software & Core Banking | Manalix"
+      metaDescription="Leading cooperative software provider in India. Complete credit cooperative software for credit society, pathsantha, and pathpidhi operations. Cloud CBS & pigmy app."
+      targetKeyword="cooperative software provider"
       secondaryKeywords={[
+        "credit cooperative software",
+        "credit society",
+        "pathsantha",
+        "pathpidhi",
+        "cooperative",
+        "credit",
+        "software",
         "cooperative credit society core banking",
         "pigmy deposit collection software",
         "credit society loan management system",
@@ -31,10 +38,10 @@ const CreditSocietySoftwarePage: React.FC = () => {
         "credit society accounting software India",
         "employee credit society software",
       ]}
-      badgeText="Trusted by 150+ Credit Societies Across India"
-      h1Title="Modern Cloud Core Banking Software for"
-      h1Highlight="Credit Cooperative Societies"
-      heroSubtitle="Empower your credit society with an enterprise cloud platform. Automate daily pigmy deposit collection with Bluetooth printing, manage loan origination with automated EMI deduction, streamline member KYC, and generate statutory audit reports in one click."
+      badgeText="Trusted Cooperative Software Provider Across India"
+      h1Title="Leading Cooperative Software Provider for"
+      h1Highlight="Credit Societies, Pathsantha & Pathpidhi"
+      heroSubtitle="Empower your credit cooperative society or pathsantha with India's premier cooperative software provider. Automate daily pigmy deposit collection with Bluetooth printing, manage loan origination with automated EMI deduction, streamline member KYC, and generate statutory audit reports in one click."
       stats={[
         { value: "150+", label: "Active Credit Societies" },
         { value: "₹2,400 Cr+", label: "Assets Managed Securely" },

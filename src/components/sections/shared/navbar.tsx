@@ -66,7 +66,6 @@ const Navbar = () => {
     { name: t.nav.products, href: "/product" },
     { name: t.nav.about, href: "/about" },
     { name: t.nav.pricing, href: "/pricing" },
-    { name: "Blog", href: "/blog" },
     { name: t.nav.contact, href: "/contact" },
   ];
 
@@ -188,14 +187,6 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                      to="/blog"
-                      onClick={() => setIsOpen(false)}
-                      className="block py-2.5 px-2 text-base text-white/90 hover:text-primary font-semibold transition-colors border-b border-white/10"
-                    >
-                      Blog
-                    </Link>
-
-                    <Link
                       to="/contact"
                       onClick={() => setIsOpen(false)}
                       className="block py-2.5 px-2 text-base text-white/90 hover:text-primary font-semibold transition-colors border-b border-white/10"
@@ -276,15 +267,6 @@ const Navbar = () => {
             }`}
           >
             {t.nav.pricing}
-          </Link>
-
-          <Link
-            to="/blog"
-            className={`px-3 py-2 text-[16px] xl:text-[17px] font-semibold transition-colors ${
-              location.pathname.startsWith("/blog") ? "text-primary" : "text-slate-800 hover:text-primary"
-            }`}
-          >
-            Blog
           </Link>
 
           <Link

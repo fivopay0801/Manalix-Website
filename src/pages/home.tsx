@@ -51,9 +51,9 @@ const Home = () => {
   const schemas = [
     createWebSiteSchema(),
     createSoftwareApplicationSchema({
-      name: "Manalix Core Banking Cloud",
+      name: "Manalix Cooperative Core Banking Software",
       description:
-        "Cloud core banking for credit societies, patsansthas, NBFCs and trusts in India. Powers FivoPay. Book a free demo.",
+        "Leading cooperative software provider in India. Cloud core banking for credit cooperative societies, pathpidhi, and pathsansthas. Powers FivoPay. Book a demo.",
       url: "https://www.manalix.com/",
     }),
     createFAQSchema(homeFaqs),
@@ -62,16 +62,25 @@ const Home = () => {
   return (
     <Layout>
       <SEO
-        title="Core Banking Software for Cooperative Societies | Manalix"
-        description="Cloud core banking for credit societies, patsansthas, NBFCs and trusts in India. Powers FivoPay. Book a free demo."
+        title="Cooperative Software Provider | Credit Society & Pathsantha | Manalix"
+        description="Leading cooperative software provider in India. Cloud core banking for credit cooperative societies, pathpidhi, and pathsansthas. Powers FivoPay. Book a demo."
         canonicalUrl="/"
         keywords={[
+          "cooperative software provider",
+          "cooperative software",
+          "credit cooperative software",
+          "credit society software",
+          "credit society",
+          "pathsantha",
+          "pathsantha software",
+          "pathpidhi",
+          "pathpidhi software",
+          "credit",
+          "cooperative",
+          "software",
           "core banking software for cooperative societies",
           "patsanstha software Maharashtra",
           "credit society software Pune",
-          "cloud core banking software India",
-          "pigmy deposit collection app",
-          "cooperative bank audit software",
           "Manalix Technologies Private Limited",
           "FivoPay banking infrastructure",
         ]}

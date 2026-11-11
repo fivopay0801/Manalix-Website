@@ -43,10 +43,10 @@ export const hi: TranslationStructure = {
   },
   home: {
     hero: {
-      badge: "पंजीकृत फिनटेक समाधान प्रदाता",
-      titleStart: "आधुनिक बैंकिंग के लिए",
-      titleGradient: "संपूर्ण वित्तीय समाधान",
-      subtitle: "सहकारी समितियों से लेकर कोर बैंकिंग और नैतिक वित्त तक — सभी वित्तीय संस्थानों के लिए व्यापक सास (SaaS) समाधान। बैंकिंग को आसान बनाना।",
+      badge: "Cooperative Software Provider & Banking Infrastructure",
+      titleStart: "क्रेडिट सोसायटी और पतसंस्थाओं के लिए अग्रगण्य",
+      titleGradient: "Cooperative Software Provider",
+      subtitle: "भारत का प्रमुख क्लाउड कोर बैंकिंग व क्रेडिट को-ऑपरेटिव सॉफ्टवेयर (Credit Cooperative Software)। क्रेडिट सहकारी समितियों (Credit Society), पतसंस्था (Pathsantha) और पतपेढ़ी (Pathpidhi) के लिए संपूर्ण सॉफ्टवेयर - पिग्मी डिपॉजिट, लोन मैनेजमेंट और ऑडिट ऑटोमेशन।",
       exploreProducts: "उत्पाद देखें",
       scheduleDemo: "डेमो शेड्यूल करें",
       securityBadge: "बैंक-स्तरीय सुरक्षा",

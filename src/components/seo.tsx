@@ -44,8 +44,17 @@ const SEO = ({
   }
 
   const defaultKeywords = [
-    "core banking software",
-    "cooperative credit society software",
+    "cooperative software provider",
+    "credit cooperative software",
+    "credit society",
+    "pathsantha",
+    "pathpidhi",
+    "cooperative software",
+    "credit",
+    "cooperative",
+    "software",
+    "credit society software",
+    "core banking software for cooperative societies",
     "patsanstha software Maharashtra",
     "credit society software Pune",
     "NBFC loan management software",

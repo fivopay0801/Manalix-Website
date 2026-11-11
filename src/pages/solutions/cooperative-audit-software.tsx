@@ -19,10 +19,18 @@ const CooperativeAuditSoftwarePage: React.FC = () => {
   return (
     <SolutionLandingTemplate
       slug="/cooperative-audit-software"
-      title="Cooperative Society Audit Software Maharashtra | Class 'A' Audit CBS"
-      metaDescription="Automated cooperative society audit software in Maharashtra. Class 'A' audit compliance, 99-parameter reports, trial balance & NPA audit. Book a demo."
-      targetKeyword="cooperative society audit software Maharashtra"
+      title="Cooperative Software Provider | Cooperative Society Audit Software | Manalix"
+      metaDescription="Leading cooperative software provider. Class 'A' audit compliance, 99-parameter reports, trial balance & NPA audit for credit society, pathsantha, and pathpidhi."
+      targetKeyword="cooperative software provider"
       secondaryKeywords={[
+        "cooperative society audit software Maharashtra",
+        "credit cooperative software",
+        "credit society",
+        "pathsantha",
+        "pathpidhi",
+        "cooperative",
+        "credit",
+        "software",
         "patsanstha audit software Pune",
         "sahakar ayuktalay 99 mudde audit",
         "cooperative credit society statutory audit",

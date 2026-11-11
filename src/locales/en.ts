@@ -41,10 +41,10 @@ export const en = {
   },
   home: {
     hero: {
-      badge: "Registered Fintech Solutions Provider",
-      titleStart: "Complete Financial Solutions for",
-      titleGradient: "Modern Banking",
-      subtitle: "From Cooperative Societies to Core Banking and Ethical Finance — comprehensive SaaS solutions for all financial institutions. Making Banking Easier.",
+      badge: "Cooperative Software Provider & Banking Infrastructure",
+      titleStart: "Cooperative Software Provider for",
+      titleGradient: "Credit Societies & Patsansthas",
+      subtitle: "India's premier cloud core banking & credit cooperative software provider. Purpose-built for credit societies, pathsansthas, and pathpidhis to automate daily pigmy deposits, loan management, and statutory audit compliance. Powers FivoPay.",
       exploreProducts: "Explore Products",
       scheduleDemo: "Schedule Demo",
       securityBadge: "Bank-Level Security",

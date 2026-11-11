@@ -43,10 +43,10 @@ export const mr: TranslationStructure = {
   },
   home: {
     hero: {
-      badge: "नोंदणीकृत फिनटेक सोल्यूशन्स प्रदाता",
-      titleStart: "आधुनिक बँकिंगसाठी",
-      titleGradient: "संपूर्ण आर्थिक उपाय",
-      subtitle: "सहकारी संस्थांपासून ते कोर बँकिंग आणि नैतिक वित्तापर्यंत — सर्व वित्तीय संस्थांसाठी सर्वसमावेशक SaaS सोल्यूशन्स. बँकिंग सोपे करणे.",
+      badge: "Cooperative Software Provider & Banking Infrastructure",
+      titleStart: "सहकारी पतसंस्था व पतपेढ्यांसाठी अग्रगण्य",
+      titleGradient: "Cooperative Software Provider",
+      subtitle: "महाराष्ट्रातील नागरी व ग्रामीण पतसंस्था (Pathsantha), पतपेढ्या (Pathpidhi) आणि क्रेडिट सोसायट्यांसाठी (Credit Society) नंबर १ क्रेडिट को-ऑपरेटिव सॉफ्टवेअर (Credit Cooperative Software). पिग्मी ॲप, कर्ज व्यवस्थापन व ९९ मुद्दे ऑडिट।",
       exploreProducts: "उत्पादने एक्सप्लोर करा",
       scheduleDemo: "डेमो शेड्यूल करा",
       securityBadge: "बँक-स्तरीय सुरक्षा",

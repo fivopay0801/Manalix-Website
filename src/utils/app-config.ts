@@ -4,7 +4,7 @@ export const appConfig = {
     formerName: "Saikhlearn & Scholar Nexus Private Limited",
     brandName: "Manalix",
     productName: "Manalix Core Banking Cloud",
-    description: "Cloud core banking software for credit societies, patsansthas, NBFCs and trusts in India. Powers FivoPay. Book a free demo.",
+    description: "Cooperative software provider in India. Cloud core banking for credit cooperative societies, pathpidhi, and pathsansthas. Powers FivoPay. Book a free demo.",
     url: "https://www.manalix.com",
     logo: "https://www.manalix.com/logo.svg",
     favicon: "/favicon.ico",

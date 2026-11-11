@@ -20,10 +20,19 @@ const MrPatsansthaSoftwarePage: React.FC = () => {
   return (
     <SolutionLandingTemplate
       slug="/mr/patsanstha-software"
-      title="पतसंस्था सॉफ्टवेअर महाराष्ट्र | क्लाउड कोअर बँकिंग प्रणाली (CBS)"
-      metaDescription="महाराष्ट्रातील नंबर १ क्लाउड पतसंस्था सॉफ्टवेअर. पिग्मी ॲप, कर्ज, ठेवी, सहकार आयुक्त ९९ मुद्दे ऑडिट वर्ग 'अ', SMS अलर्ट. मोफत डेमो बुक करा."
-      targetKeyword="पतसंस्था सॉफ्टवेअर"
+      title="Cooperative Software Provider | पतसंस्था व पतपेढी सॉफ्टवेअर | Manalix"
+      metaDescription="महाराष्ट्रातील अग्रगण्य Cooperative Software Provider. पतसंस्था (Pathsantha) व पतपेढींसाठी (Pathpidhi) संपूर्ण क्रेडिट को-ऑपरेटिव सॉफ्टवेअर, ९९ मुद्दे ऑडिट व पिग्मी ॲप."
+      targetKeyword="cooperative software provider"
       secondaryKeywords={[
+        "pathsantha",
+        "pathpidhi",
+        "credit cooperative software",
+        "credit society",
+        "credit",
+        "cooperative",
+        "software",
+        "पतसंस्था सॉफ्टवेअर",
+        "पतपेढी सॉफ्टवेअर",
         "नागरी पतसंस्था सॉफ्टवेअर पुणे",
         "सहकारी पतसंस्था कोअर बँकिंग",
         "पिग्मी मशीन सॉफ्टवेअर महाराष्ट्र",
@@ -32,10 +41,10 @@ const MrPatsansthaSoftwarePage: React.FC = () => {
         "पतसंस्था कर्ज वसुली कलम १०१",
         "मनालिक्स कोअर बँकिंग",
       ]}
-      badgeText="महाराष्ट्रातील अग्रगण्य क्लाउड पतसंस्था सॉफ्टवेअर"
-      h1Title="महाराष्ट्रातील नंबर १ क्लाउड"
-      h1Highlight="पतसंस्था सॉफ्टवेअर (CBS)"
-      heroSubtitle="नागरी, ग्रामीण, कर्मचारी व महिला सहकारी पतसंस्थांसाठी बनवलेले अत्याधुनिक क्लाउड कोअर बँकिंग सॉफ्टवेअर. सहकार आयुक्तालय ९९ मुद्दे वैधानिक ऑडिट (वर्ग 'अ' रेटिंग), ब्लूटूथ प्रिंटरसह पिग्मी ॲप, कलम १०१ वसुली नोटिसा आणि सभासदांसाठी डिजिटल पासबुक."
+      badgeText="Cooperative Software Provider - महाराष्ट्र"
+      h1Title="महाराष्ट्रातील अग्रगण्य Cooperative Software Provider -"
+      h1Highlight="पतसंस्था (Pathsantha) व पतपेढी (Pathpidhi)"
+      heroSubtitle="नागरी, ग्रामीण, कर्मचारी व महिला सहकारी पतसंस्था आणि पतपेढ्यांसाठी अग्रगण्य Cooperative Software Provider. सहकार आयुक्तालय ९९ मुद्दे वैधानिक ऑडिट (वर्ग 'अ' मानांकन), ब्लूटूथ प्रिंटरसह पिग्मी ॲप, कलम १०१ वसुली नोटिसा आणि सभासदांसाठी डिजिटल पासबुक."
       stats={[
         { value: "१८०+", label: "कार्यरत सहकारी पतसंस्था" },
         { value: "वर्ग 'अ'", label: "सहकार ऑडिट मानांकन" },

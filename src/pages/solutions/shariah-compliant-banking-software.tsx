@@ -23,8 +23,13 @@ const ShariahCompliantBankingSoftwarePage: React.FC = () => {
       metaDescription="Cloud interest-free & Shariah-compliant core banking software in India. Murabaha, Mudarabah, Diminishing Musharakah, Qard Hasan & audit. Free demo."
       targetKeyword="interest-free / Islamic banking software India"
       secondaryKeywords={[
-        "Shariah compliant core banking system",
+        "cooperative software provider",
         "Islamic cooperative credit society software",
+        "credit cooperative software",
+        "credit society",
+        "cooperative",
+        "software",
+        "Shariah compliant core banking system",
         "Murabaha financing software",
         "Mudarabah profit sharing CBS",
         "interest free microfinance software India",
