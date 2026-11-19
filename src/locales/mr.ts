@@ -120,6 +120,14 @@ export const mr: TranslationStructure = {
       m18Title: "सेटिंग्ज आणि मास्टर",
       m18Desc: "उत्पादन मास्टर, शुल्क, शाखा आणि सिस्टम संरचना",
     },
+    integrationsCompliance: {
+      title: "Integrations & Compliance",
+      subtitle: "राष्ट्रीय वित्तीय प्रणालीशी अखंड कनेक्टिव्हिटी आणि १००% नियामक अनुपालन.",
+      card1Title: "Works with NPCI payments, Aadhaar, PAN, GST, CKYC APIs",
+      card1Desc: "UPI, NACH, e-Mandates, आधार OTP आणि बायोमेट्रिक eKYC, पॅन-NSDL पडताळणी, GST प्रमाणीकरण आणि सेंट्रल केवायसी रजिस्ट्री (CKYCR) साठी पूर्व-एकात्मिक कनेक्टर्स.",
+      card2Title: "Fully RBI/IDRBT compliant",
+      card2Desc: "सहकारी बँकांसाठी RBI सायबर सुरक्षा फ्रेमवर्क आणि IDRBT क्लाउड मार्गदर्शक तत्त्वांचे १००% पालन व भारतात डेटा स्थानिकीकरण.",
+    },
     kycPartners: {
       title: "आमचे केवायसी भागीदार",
     },

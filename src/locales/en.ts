@@ -118,6 +118,14 @@ export const en = {
       m18Title: "Settings & Master",
       m18Desc: "Product Master, Charges, Branches & System Config",
     },
+    integrationsCompliance: {
+      title: "Integrations & Compliance",
+      subtitle: "Bank-grade regulatory compliance and seamless connectivity with India's national financial rails.",
+      card1Title: "Works with NPCI payments, Aadhaar, PAN, GST, CKYC APIs",
+      card1Desc: "Pre-built connectors for UPI, NACH, e-Mandates, Aadhaar OTP & Biometric eKYC, PAN-NSDL verification, GST validation, and Central KYC Registry (CKYCR) pipelines.",
+      card2Title: "Fully RBI/IDRBT compliant",
+      card2Desc: "Strict adherence to RBI Cyber Security Framework for Primary (Urban) Co-operative Banks and IDRBT cloud guidelines with end-to-end data localization in India.",
+    },
     kycPartners: {
       title: "Our KYC Partners",
     },

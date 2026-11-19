@@ -3,6 +3,7 @@ import Hero from "@/components/sections/home/hero";
 import SEO from "@/components/seo";
 import GatewayPartners from "@/components/sections/home/gateway-partners";
 import CoreModules from "@/components/sections/home/core-modules";
+import IntegrationsCompliance from "@/components/sections/home/integrations-compliance";
 import KycPartners from "@/components/sections/home/kyc-partners";
 import Confidence from "@/components/sections/home/confidence";
 import Content from "@/components/sections/home/content";
@@ -89,6 +90,7 @@ const Home = () => {
       <Hero />
       <GatewayPartners />
       <CoreModules />
+      <IntegrationsCompliance />
       <KycPartners />
       <Confidence />
       <Content />
